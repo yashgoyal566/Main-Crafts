@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+</head>
+<body>
+
+        <header class="site-header">
+        <nav class="navbar">
+                <div class="nav-top">
+            <div class="logo">
+                <div class="logo-dot"></div>
+                Maincrafts
+
+                
+            </div>
+
+            <div class="menu-toggle">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+         
+        </nav>
+    </header>
+    <!-- <header class="site-header">
+        <nav class="navbar">
+            <div class="logo ">
+                <a href="#" ><span class="logo-dot">Maincraft <span class="logo-line-vertical"></span></span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header> -->
+    <main class="contact-page">
+        <section class="contact-wrapper">
+            <div class="contact-info reveal-on-scroll">
+                <span class="contact-tag">GET IN TOUCH</span>
+                <h1>Let's Build Something <span>Great Together</span></h1>
+                <p>Have a project in mind? Drop us a line and our team will get back to you within 24 hours.</p>
+
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div><small>Email us at </small>
+                <h4>hello@maincrafts.io</h4>
+                </div>
+            </div>
+        <div class="contact-item">
+            <div class="contact-icon">
+                 <i class="fa-solid fa-phone"></i>
+            </div>
+            <div><small>Call us at</small>
+            <h4>+91 9876543210</h4>
+            </div>
+        </div>
+
+        <div class="contact-item">
+
+            <div class="contact-icon">
+                <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div>
+                <small>Our HQ</small>
+                <h4>KPHB, HYderabad, India</h4>
+            </div>
+        </div>
+
+
+        </div>
+            </div>
+
+
+            <div class="contact-form-card reveal-on-scroll">
+                <form name="contactForm" onsubmit="return validateForm()" method="post">
+                    <div class="form-group">
+                    <label for="name">YOUR NAME</label>
+                    <input type="text" id="name" name="name" placeholder="Jane Smith">
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">EMAIL ADDRESS</label>
+                        <input type="email"
+                        id="email"
+                        name="email"
+                        placeholder="jane@company.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">MESSAGE</label>
+                        <textarea name="message" id="message" 
+                        rows="6"
+                        placeholder="Tell us about your project..."></textarea>
+                    </div>
+                    <button type="submit" class="contact-submit-btn">Send Message<i class="fa-solid fa-paper-plane"></i>
+                    </button>
+
+                </form>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Maincrafts Technology. Engineered for excellence.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
